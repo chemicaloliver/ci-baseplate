@@ -9,3 +9,7 @@ This is the starting I use for new web application projects, it takes codeignter
 * XML Writer - helps writing xml files
 * MY_Cart - Simple cart mods (see comments)
 * MY_Pagination - Allows extra bits and pieces to work (see comments)
+
+## Unit Testing
+
+Until PHPUnit is finished in CI I will continue to use Codeigniter-Simpletest - https://github.com/ericbarnes/codeigniter-simpletest
