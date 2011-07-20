@@ -20,6 +20,7 @@ class Main extends CI_Controller {
 	public function index()
 	{
             $data['page'] = 'main/home';
+            $data['page_name'] = 'Home';
             $this->load->view('template', $data);
 	}
 }
