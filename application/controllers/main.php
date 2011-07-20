@@ -19,7 +19,8 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+            $data['page'] = 'main/home';
+            $this->load->view('template', $data);
 	}
 }
 
