@@ -1,5 +1,18 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+
+/*
+|--------------------------------------------------------------------------
+| Default Site metadata
+|--------------------------------------------------------------------------
+|
+| These are used for elements like title and keywords, unless they are 
+| overridden
+|
+*/
+define('SITE_NAME', 'CI-Baseplate');
+
+
 /*
 |--------------------------------------------------------------------------
 | File and Directory Modes
