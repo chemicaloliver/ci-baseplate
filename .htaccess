@@ -1,3 +1,10 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
 # Apache configuration file
 # httpd.apache.org/docs/2.2/mod/quickreference.html
 
