@@ -86,8 +86,13 @@ a:hover { color: #036; }
     \\ ========================================== //
 */
 
+/*
+    Menu Styles
+*/
 
-
+.active {
+    font-weight: bold;
+}
 
 
 
