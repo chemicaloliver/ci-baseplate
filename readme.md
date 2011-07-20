@@ -1,6 +1,8 @@
 # CI Baseplate
 
-This is the starting I use for new web application projects, it takes codeignter, adds useful libraries and customisations and eventually will include a build script for simple deployment
+This is the starting I use for new web application projects, it takes codeigniter, adds useful libraries and customisations and eventually will include a build script for simple deployment.
+
+The baseplate includes a simple example to demonstrate use of the menu library.
 
 ## Libraries Included
 
@@ -12,4 +14,8 @@ This is the starting I use for new web application projects, it takes codeignter
 
 ## Unit Testing
 
-Until PHPUnit is finished in CI I will continue to use Codeigniter-Simpletest - https://github.com/ericbarnes/codeigniter-simpletest
+Until PHPUnit support is finished in CI I will continue to use Codeigniter-Simpletest - https://github.com/ericbarnes/codeigniter-simpletest
+
+## HTML5 Boilerplate
+
+I've baked in most elements of the HTML5 boilerplace http://html5boilerplate.com/ to ease consistant support of HTML5 elements across browsers. 
