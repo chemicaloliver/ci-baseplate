@@ -18,4 +18,4 @@ Until PHPUnit support is finished in CI I will continue to use Codeigniter-Simpl
 
 ## HTML5 Boilerplate
 
-I've baked in most elements of the HTML5 boilerplace http://html5boilerplate.com/ to ease consistant support of HTML5 elements across browsers. 
+I've baked in most elements of the HTML5 boilerplate http://html5boilerplate.com/ to ease consistent support of HTML5 elements across browsers. 
