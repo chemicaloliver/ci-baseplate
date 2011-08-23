@@ -13,6 +13,8 @@ The baseplate includes a simple example to demonstrate use of the menu library.
 * MY_Pagination - Allows extra bits and pieces to work (see comments)
 
 * SSL Helper - allows forcing of ssl for controllers - http://codeigniter.com/forums/viewthread/83154/
+* Config Helper - allows simple editing of standard CI config files from inside your application - taken from CI Bonfire
+* Date Helper - adds extra date functions - taken from CI Bonfire
 
 ## Unit Testing
 
